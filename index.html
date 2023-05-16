@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="tictactoe.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    
+   <header>Tic Tac Toe</header>
+   <main class="board" id="board">
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell ></div>
+    <div class="cell" data-cell ></div>
+    <div class="cell" data-cell ></div>
+    <div class="cell" data-cell ></div>
+    <div class="cell" data-cell ></div>
+    <div class="cell" data-cell ></div>
+    <div class="cell" data-cell ></div>
+    <div class="cell" data-cell ></div>
+</main>
+<div class="resetContainer">
+    <button id='resetBtn'>Reset</button>
+</div>
+<div class="winningScreen " id="winningScreen">
+    <div id="winningMessage">X Wins!</div>
+    <button id="resetButton">Restart</button>
+</div>
+<footer>J's project 2023</footer>
 </body>
 </html>
