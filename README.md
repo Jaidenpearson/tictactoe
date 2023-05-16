@@ -1,2 +1,2 @@
 # tictactoe
-Project to practice object and factory usage
+Beginner JS project. WOuld like to implement bot with difficulty.
